@@ -1,0 +1,41 @@
+.p {
+  margin-top: 40px;
+  font-size: 20px;
+}
+.p2 {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+}
+.p3 {
+  margin-top: 50px;
+  padding-left: 7px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #cd853f;
+  cursor: pointer;
+}
+.imgs {
+  max-width: 500px;
+  height: 100vh;
+}
+.second {
+  padding-top: 100px;
+  height: auto;
+}
+.col2 {
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 918px) {
+  .imgs {
+    width: 100%;
+    height: auto;
+  }
+  .second {
+    padding-top: 70px;
+  }
+}

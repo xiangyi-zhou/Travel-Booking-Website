@@ -1,0 +1,102 @@
+.footer {
+  background-color: #040e27;
+  color: white;
+  height: 105vh;
+  width: 100%;
+}
+li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.747);
+}
+
+.logopart {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-size: 1.8rem;
+}
+.secondfoot {
+  width: 95%;
+  margin: auto;
+  padding-top: 120px;
+}
+.instaimg {
+  border-radius: 6px;
+  width: 85px;
+}
+.gaps {
+  margin-top: 30px;
+}
+.icon {
+  margin-top: 35px;
+}
+.i:hover {
+  color: #cd853f;
+  cursor: pointer;
+}
+.hr {
+  margin-top: 180px;
+}
+.copyright {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.creater {
+  color: #cd853f;
+}
+@media screen and (max-width: 1265px) {
+  .footer {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 565px) {
+  .footer {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .footer {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+  .hr {
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .instaimg {
+    width: 70px;
+  }
+  .footer {
+    height: 210vh;
+    width: 100%;
+    margin-top: 5rem;
+  }
+}
+@media screen and (max-width: 361px) {
+  .instaimg {
+    width: 70px;
+  }
+  .footer {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+}
+@media screen and (max-width: 321px) {
+  .instaimg {
+    width: 50px;
+  }
+  .footer {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+}

@@ -1,0 +1,33 @@
+.cardimg {
+  border-radius: 5px;
+  width: 100%;
+}
+.blog {
+  margin-top: 100px;
+  height: 100vh;
+  width: 100%;
+}
+.blog2 {
+  padding-top: 60px;
+}
+.column {
+  cursor: pointer;
+  margin-top: 20px;
+}
+.column:hover h5 {
+  color: #cd853f;
+}
+@media screen and (max-width: 1198px) {
+  .blog2 {
+    margin: auto;
+  }
+  .blog {
+    margin-top: 100px;
+    height: auto;
+    width: 100%;
+  }
+
+  .cardimg {
+    width: 100%;
+  }
+}

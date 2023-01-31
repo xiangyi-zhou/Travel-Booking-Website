@@ -1,0 +1,14 @@
+.row {
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.icon {
+  color: #cd853f;
+  font-size: 65px;
+}
+.service {
+  margin-top: 100px;
+  height: auto;
+  width: 100%;
+}

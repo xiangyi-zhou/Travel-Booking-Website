@@ -1,0 +1,78 @@
+.place {
+  padding-top: 100px;
+  height: auto;
+}
+
+.row1 {
+  padding-top: 50px;
+  margin: auto;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1118px) {
+  .place {
+    height: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .row1 {
+    margin-left: 0px;
+    margin-left: 0px;
+  }
+  .place .p {
+    width: 100%;
+    margin: 0%;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .place {
+    height: auto;
+  }
+  .clock {
+    margin-left: 30px;
+    margin-top: 3px;
+  }
+}
+
+.card:hover {
+  box-shadow: -3px 12px 18px -1px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+.card:hover .h1 {
+  color: #cd853f;
+}
+
+.icon {
+  color: #cd853f;
+  margin-top: 4px;
+}
+.iconmain {
+  display: flex;
+  flex-direction: row;
+}
+.clock {
+  margin-left: 45px;
+  margin-top: 3px;
+}
+.Img {
+  position: relative;
+}
+.dollers {
+  position: absolute;
+  z-index: 2;
+  background-color: #cd853f;
+  color: white;
+  font-size: 20px;
+  width: 76px;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+  border-radius: 5px;
+}
+.p {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}

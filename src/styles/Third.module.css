@@ -1,0 +1,54 @@
+.third {
+  margin-top: 100px;
+  height: 100vh;
+}
+.caption {
+  text-align: center;
+  justify-content: center;
+}
+.p {
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.mainslider {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+.imgtag {
+  width: 95%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgCap {
+  position: absolute;
+  color: white;
+  background-color: #cd853f;
+  font-size: 18px;
+  width: 76px;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+  border-radius: 5px;
+  z-index: 2;
+}
+@media screen and (max-width: 1122px) {
+  .p {
+    width: 90%;
+  }
+  .mainslider {
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .third {
+    margin-top: 100px;
+    height: auto;
+  }
+}
