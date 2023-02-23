@@ -2,7 +2,7 @@
 The front-end of the website is built using the latest web technologies such as HTML, CSS, JavaScript, and Bootstrap.
 
 ## Screenshots
-  <img src="images/travel-1.png" style="width: 45%" height=240px>|<img src="images/travel-2.png" style="width: 45%" height=240px>
+  <img src="images/travel-img-1.png" style="width: 45%" height=240px>|<img src="images/travel-2.png" style="width: 45%" height=240px>
 
 <img src="images/travel-3.png" style="width: 45%" height=240px>
   
