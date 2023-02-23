@@ -79,9 +79,9 @@ const Navbar = ({ toggole }) => {
   window.addEventListener("scroll", changeBackground);
 
   return (
-    <>
+    <div>
       <nav className={navbar ? "navbar actives" : "navbar"}>
-        <Logo>Travel War.</Logo>
+        <Logo>Yichang Discovery.</Logo>
         <MenuBars onClick={toggole} />
         <NavMenu>
           {MenuData.map((item, index) => (
@@ -96,7 +96,7 @@ const Navbar = ({ toggole }) => {
           </Button>
         </NavBtn>
       </nav>
-    </>
+    </div>
   );
 };
 

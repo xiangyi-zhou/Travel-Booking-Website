@@ -1,74 +1,36 @@
-import { default as ImageOne } from "../assets/images/Travel 1.jpg";
-import ImageTwo from "../assets/images/Travel 2.jpg";
-import ImageThree from "../assets/images/Travel 3.jpg";
-import ImageFour from "../assets/images/Travel 4.jpg";
+import { default as ImageOne } from "../assets/images/Yichang_attractions_overview.jpg";
+import ImageTwo from "../assets/images/Yichang_three_gorges_dam.jpeg";
+import ImageThree from "../assets/images/Yichang_Yangze_bridge.jpg";
 
 export const SliderData = [
   {
-    title: "Discover Yours",
-    subtitle: "Favorite Place with Us",
+    title: "Discover Yichang",
+    subtitle: "Explore the Natural Beauty of Yichang",
     price:
-      "Travel to the any corner of the world, without going around in circles",
+      "Experience the natural beauty of Yichang's breathtaking landscapes and historic sites.",
     path: "/home",
     label: "Explore More",
     image: ImageOne,
-    alt: "House",
+    alt: "Yichang_attractions_overview",
   },
   {
-    title: "Discover Yours",
-    subtitle: "Favorite Place with Us",
+    title: "Discover Yichang",
+    subtitle: "The World's Largest Hydroelectric Dam",
     price:
-      "Travel to the any corner of the world, without going around in circles",
+      "Visit the world's largest hydroelectric dam and learn about its history and impact.",
     path: "/home",
     label: "Explore More",
     image: ImageTwo,
-    alt: "House",
+    alt: "Yichang_three_gorges_dam",
   },
   {
-    title: "Discover Yours",
-    subtitle: "Favorite Place with Us",
+    title: "Discover Yichang",
+    subtitle: "Cross the Mighty Yangtze River",
     price:
-      "Travel to the any corner of the world, without going around in circles",
+      "Cross the mighty Yangtze River and enjoy stunning views of Yichang's cityscape and river scenery.",
     path: "/home",
     label: "Explore More",
     image: ImageThree,
-    alt: "House",
-  },
-  {
-    title: "Discover Yours",
-    subtitle: "Favorite Place with Us",
-    price:
-      "Travel to the any corner of the world, without going around in circles",
-    path: "/home",
-    label: "Explore More",
-    image: ImageFour,
-    alt: "House",
+    alt: "Yichang_Yangze_bridge",
   },
 ];
-
-// export const SliderDataTwo = [
-//   {
-//     title: "Luxary Villa In Vali and Indonessia",
-//     price: "$43,4300,32",
-//     path: "/home",
-//     label: "view home",
-//     image: ImageOne,
-//     alt: "House",
-//   },
-//   {
-//     title: "Luxary Villa In Vali and Indonessia",
-//     price: "$43,4300,32",
-//     path: "/home",
-//     label: "view home",
-//     image: ImageOne,
-//     alt: "House",
-//   },
-//   {
-//     title: "Luxary Villa In Vali and Indonessia",
-//     price: "$43,4300,32",
-//     path: "/home",
-//     label: "view home",
-//     image: ImageOne,
-//     alt: "House",
-//   },
-// ];

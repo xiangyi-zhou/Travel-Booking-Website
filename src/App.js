@@ -6,7 +6,6 @@ import Thirdsection from "../src/components/Thirdsection";
 import Blog from "./components/Blog";
 import Dropdown from "./components/Dropdown";
 import Footer from "./components/Footer";
-
 import Herosection from "./components/Herosection";
 import InfoSection from "./components/InfoSection";
 import Navbar from "./components/Navbar";
@@ -25,7 +24,7 @@ function App() {
     setOpen(!isOpen);
   };
   return (
-    <>
+    <div>
       <GlobalStyle />
       <Navbar toggole={toggole} />
       <Dropdown isOpen={isOpen} toggole={toggole} />
@@ -39,7 +38,7 @@ function App() {
       <Testimonial />
       <Blog />
       <Footer />
-    </>
+    </div>
   );
 }
 
