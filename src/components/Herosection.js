@@ -64,7 +64,7 @@ const Button = styled.button`
   border-radius: 5px;
   font-weight: bold;
   &:hover {
-    background-color: #cd853f;
+    background-color: #B99B6B;
     color: white;
     cursor: pointer;
   }
@@ -126,7 +126,7 @@ const arrowButton = css`
   transition: 0.3s;
 
   &:hover {
-    background: #cd853f;
+    background: #B99B6B;
     transform: scale(1.05);
   }
 `;

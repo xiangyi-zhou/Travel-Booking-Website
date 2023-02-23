@@ -30,7 +30,6 @@ function App() {
       <Dropdown isOpen={isOpen} toggole={toggole} />
       <Herosection slides={SliderData} />
       <InfoSection />
-      <Thirdsection />
       <Newsletters />
       <Places />
       <Video />

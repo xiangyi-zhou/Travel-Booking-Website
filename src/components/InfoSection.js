@@ -47,7 +47,13 @@ function InfoSection() {
                     </div>
                 </Col>
             </Row>
+            <Row>
+                <br/>
+                <br/>
+            </Row>
         </Container>
+
+
     );
 }
 
