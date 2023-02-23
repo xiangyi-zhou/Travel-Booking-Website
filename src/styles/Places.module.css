@@ -41,11 +41,11 @@
   cursor: pointer;
 }
 .card:hover .h1 {
-  color: #cd853f;
+  color: #B99B6B;
 }
 
 .icon {
-  color: #cd853f;
+  color: #B99B6B;
   margin-top: 4px;
 }
 .iconmain {
@@ -62,7 +62,7 @@
 .dollers {
   position: absolute;
   z-index: 2;
-  background-color: #cd853f;
+  background-color: #B99B6B;
   color: white;
   font-size: 20px;
   width: 76px;

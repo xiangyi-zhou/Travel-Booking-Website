@@ -25,7 +25,7 @@
   font-size: 40px;
   padding: 20px;
   margin-top: 150px;
-  background: #cd853f;
+  background: #B99B6B;
   border-radius: 50%;
   position: relative;
   cursor: pointer;
@@ -38,7 +38,7 @@
   top: 0%;
   bottom: 0%;
   border-radius: 50%;
-  border: 15px solid #cd853f;
+  border: 15px solid #B99B6B;
   animation: animate 1.5s linear infinite;
   opacity: 0;
 }
@@ -50,7 +50,7 @@
   top: 0%;
   bottom: 0%;
   border-radius: 50%;
-  border: 15px solid #cd853f;
+  border: 15px solid #B99B6B;
   animation: animated 1.5s linear infinite;
   opacity: 0;
   animation-delay: 0.6s;

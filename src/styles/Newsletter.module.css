@@ -22,12 +22,12 @@
 }
 
 .btn {
-  background-color: #cd853f;
+  background-color: #B99B6B;
   border: none;
   margin-left: 10px;
 }
 .btn:hover {
-  background-color: #cd853f;
+  background-color: #B99B6B;
 }
 .input {
   display: flex;
