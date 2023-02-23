@@ -108,8 +108,8 @@ function Footer() {
         </Col>
         <hr className={classes.hr}></hr>
         <li className={classes.copyright}>
-          Copyright ©2022 All rights reserved | This template is made with by
-          <span className={classes.creater}> RaFi</span>
+          Copyright ©2023 All rights reserved <br/>
+          <span className={classes.creater}> Xiangyi</span>
         </li>
       </Row>
     </Container>
