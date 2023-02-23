@@ -17,9 +17,16 @@ npm (version 6 or later)
 To install the project, follow these steps:
 1. Clone the repository
 2. Change into the project directory
-3. Install the dependencies: npm install
+3. Install the dependencies: 
+```console
+    npm install
+```
 ### Running
-To start the development server, run npm start in the project directory. This will start the server and open the app in your default web browser at http://localhost:3000.
+To start the development server, run npm start in the project directory. 
+```console
+    npm start
+```
+This will start the server and open the app in your default web browser at http://localhost:3000.
 ### Building
 To create a production build of the app, run npm run build. This will create an optimized build in the build directory.
 
