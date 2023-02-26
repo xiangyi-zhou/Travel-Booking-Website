@@ -96,7 +96,6 @@ const HeroContent = styled.div`
     font-size: 2rem;
     text-transform: uppercase;
     text-align: left;
-    font-weight: 800px;
     margin-bottom: 0.9rem;
   }
   p {
@@ -147,7 +146,7 @@ const Herosection = ({ slides }) => {
     const nextSlide = () => {
       setCurrent((current) => (current === length - 1 ? 0 : current + 1));
     };
-    timeout.current = setTimeout(nextSlide, 3500);
+    timeout.current = setTimeout(nextSlide, 5000);
 
     return function () {
       if (timeout.current) {
