@@ -111,7 +111,7 @@ function Footer() {
                         </Col>
                     </Row>
                 </Col>
-                <hr className={classes.hr}></hr>
+                <hr/>
                 <li className={classes.copyright}>
                     Copyright ©2023 All rights reserved <br/>
                     <span className={classes.creater}> Xiangyi</span>

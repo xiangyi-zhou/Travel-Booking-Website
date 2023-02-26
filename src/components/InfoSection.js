@@ -52,8 +52,6 @@ function InfoSection() {
                 <br/>
             </Row>
         </Container>
-
-
     );
 }
 

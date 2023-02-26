@@ -35,7 +35,7 @@ function Video() {
                 className={classes.iframe}
                 width="760"
                 height="400"
-                src="https://www.youtube.com/embed/ay-KbtIza4E"
+                src="https://www.youtube.com/embed/ganNmaRG_J8"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
