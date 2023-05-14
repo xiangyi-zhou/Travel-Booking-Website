@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import Thirdsection from "../src/components/Thirdsection";
 import Blog from "./components/Blog";
 import Dropdown from "./components/Dropdown";
 import Footer from "./components/Footer";

@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { IoArrowBack, IoArrowForward } from "react-icons/io5";
-import { MdNavigateNext } from "react-icons/md";
 import styled, { css } from "styled-components/macro";
 
 const Hero = styled.section`
@@ -103,7 +102,6 @@ const HeroContent = styled.div`
   }
 `;
 
-const Arrow = styled(MdNavigateNext)``;
 
 const SliderButton = styled.div`
   position: absolute;
