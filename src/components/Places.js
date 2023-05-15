@@ -1,6 +1,5 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { AiOutlineClockCircle, AiTwotoneStar } from "react-icons/ai";
-
 import classes from "../styles/Places.module.css";
 import {placesData} from "../data/placesData";
 

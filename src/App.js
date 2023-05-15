@@ -1,11 +1,10 @@
 import { useState } from "react";
-
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import Blog from "./components/Blog";
 import Dropdown from "./components/Dropdown";
 import Footer from "./components/Footer";
-import Herosection from "./components/Herosection";
+import HeroSection from "./components/Herosection";
 import InfoSection from "./components/InfoSection";
 import Navbar from "./components/Navbar";
 import Newsletters from "./components/Newsletters";
@@ -13,21 +12,21 @@ import Places from "./components/Places";
 import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
 import Video from "./components/Video";
-import { SliderData } from "./data/Slidere";
+import { SliderData } from "./data/Slider";
 import GlobalStyle from "./globalstyle";
 
 function App() {
   const [isOpen, setOpen] = useState(false);
 
-  const toggole = () => {
+  const toggle = () => {
     setOpen(!isOpen);
   };
   return (
     <div>
       <GlobalStyle />
-      <Navbar toggole={toggole} />
-      <Dropdown isOpen={isOpen} toggole={toggole} />
-      <Herosection slides={SliderData} />
+      <Navbar toggle={toggle} />
+      <Dropdown isOpen={isOpen} toggle={toggle} />
+      <HeroSection slides={SliderData} />
       <InfoSection />
       <Newsletters />
       <Places />

@@ -16,7 +16,7 @@
 .slick-dots li {
   display: none;
 }
-.activemodal {
+.active-modal {
   overflow-y: hidden;
 }
 @media screen and (max-width: 368px) {

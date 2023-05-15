@@ -4,9 +4,7 @@ import { Link } from "react-router-dom";
 import styled, { css } from "styled-components/macro";
 import { MenuData } from "../data/MenuData";
 import "../styles/Navbar.css";
-
 import { Button } from "./Button";
-
 
 const NavLink = css`
   color: #fff;
