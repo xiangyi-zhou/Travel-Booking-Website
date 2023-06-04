@@ -25,7 +25,6 @@ function Video() {
           </div>
         </div>
       </div>
-      {/* <button onClick={toggoleVideo} className={classes.btnmodal}></button> */}
       {modal && (
         <div onClick={toggleVideo} className={classes.overlay}>
           <div className={classes.modalcontent}>

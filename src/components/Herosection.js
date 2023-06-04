@@ -63,7 +63,7 @@ const Button = styled.button`
   border-radius: 5px;
   font-weight: bold;
   &:hover {
-    background-color: #B99B6B;
+    background-color: #b99b6b;
     color: white;
     cursor: pointer;
   }
@@ -102,7 +102,6 @@ const HeroContent = styled.div`
   }
 `;
 
-
 const SliderButton = styled.div`
   position: absolute;
   bottom: 50px;
@@ -123,7 +122,7 @@ const arrowButton = css`
   transition: 0.3s;
 
   &:hover {
-    background: #B99B6B;
+    background: #b99b6b;
     transform: scale(1.05);
   }
 `;
