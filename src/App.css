@@ -1,5 +1,5 @@
 .slick-arrow {
-  background-color: #B99B6B;
+  background-color: #b99b6b;
   height: 5vh;
 }
 .slick-next {
@@ -7,10 +7,10 @@
   margin-left: 740px;
 }
 .slick-arrow:hover {
-  background-color: #B99B6B;
+  background-color: #b99b6b;
 }
 .slick-dots {
-  color: #B99B6B;
+  color: #b99b6b;
   font-size: 40px;
 }
 .slick-dots li {
