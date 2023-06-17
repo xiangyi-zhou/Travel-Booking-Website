@@ -134,7 +134,7 @@ const NextArrow = styled(IoArrowForward)`
   ${arrowButton}
 `;
 
-const Herosection = ({ slides }) => {
+const HeroSection = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
   const timeout = useRef(null);
@@ -197,4 +197,4 @@ const Herosection = ({ slides }) => {
   );
 };
 
-export default Herosection;
+export default HeroSection;

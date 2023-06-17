@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { BsPlayFill } from "react-icons/bs";
 import styled from "styled-components";
 import info_image from "../assets/images/travel_backpack.jpg";
-import classes from "../styles/Infosection.module.css";
+import classes from "../styles/InfoSection.module.css";
 
 const Icon = styled(BsPlayFill)`
   color: #b99b6b;

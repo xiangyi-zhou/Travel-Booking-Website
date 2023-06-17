@@ -9,7 +9,7 @@ import testimonialImg2 from "../assets/images/Testmonial.webp";
 import testimonialImg3 from "../assets/images/Testmonial.webp";
 import "../styles/Testimonial.css";
 
-export class Owldemo1 extends Component {
+export class Testimonial extends Component {
   render() {
     return (
       <div className="tesimonial">
@@ -74,4 +74,4 @@ export class Owldemo1 extends Component {
   }
 }
 
-export default Owldemo1;
+export default Testimonial;

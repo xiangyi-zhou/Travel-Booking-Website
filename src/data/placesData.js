@@ -1,4 +1,4 @@
-export const placesData = [
+export const PlacesData = [
   {
     id: 1,
     name: "Three Gorges Dam Project",
