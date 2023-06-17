@@ -1,5 +1,7 @@
 # Yichang Travel Booking Website - Front End
 
+live version: https://yichang-travel.netlify.app/
+
 Yichang Travel Booking Website is a platform designed to facilitate travel bookings for Yichang city, providing users with a seamless experience for planning and organizing their trips.
 
 ## Screenshots
